@@ -3,7 +3,7 @@ $:.unshift File.join( File.dirname( __FILE__ ), 'lib')
 
 require 'rake'
 require 'rake/testtask'
-require 'peas/version'
+require 'automata/version'
 
 Rake::TestTask.new(:test) do |t|
   t.libs << "spec"
