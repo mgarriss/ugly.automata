@@ -1,0 +1,35 @@
+= ugly.automata
+
+A collection of algorithms for generating cellular automata.  Currently only constains
+"elementary cellular automata" or aka the cool pictures from the Wolfram book.
+
+== Features
+
+* Provides a Automata::Elementary class that takes rule number, initial state along with a #run(steps) method.
+* Produces an Array of Strings as a result. 
+
+== Installation
+
+   gem install ugly.automata
+  
+== Requirements
+
+Currently only tested with Ruby 1.9.2-p290.
+
+== Usage
+
+  require 'automata'
+
+  automaton = Automata::Elementary.new(110)
+  automaton.run(2000)
+  
+== Author
+
+* {Michael Garriss}[http://github.com/mgarriss] <mgarriss at gmail.com>
+* The elegantly simple algorithm and code for the elementary automata is from Jesse Merriman written for Ruby Quiz 134: Cellular Automata. see: http://www.rubyquiz.com/quiz134.html
+
+== License
+
+Apache 2.0, See the file LICENSE
+
+Copyright (c) 2011 Michael Garriss
