@@ -1,6 +1,6 @@
 = ugly.automata
 
-A collection of algorithms for generating cellular automata.  Currently only constains
+A collection of algorithms for generating cellular automata.  Currently only contains
 "elementary cellular automata" or aka the cool pictures from the Wolfram book.
 
 == Features
